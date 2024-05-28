@@ -5,12 +5,15 @@ var linear3 = document.getElementById("linear-card3");
 var tryNum = Math.ceil(Math.random()*3);
 button1.addEventListener("mousedown", function(e) {
     if (tryNum == 1) {
+        alert(tryNum);
         linear1.style.display = "block";
     }
     if (tryNum == 2) {
+        alert(tryNum);
         linear2.style.display = "block";
     }
     if (tryNum == 3) {
+        alert(tryNum);
         linear3.style.display = "block";
     }
 });
