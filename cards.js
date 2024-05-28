@@ -3,7 +3,7 @@ var linear1 = document.getElementById("linear-card1");
 var linear2 = document.getElementById("linear-card2");
 var linear3 = document.getElementById("linear-card3");
 var tryNum = Math.ceil(Math.random()*3);
-button1.addEventListener("mousedown", function() {
+function display1() {
     alert("Working");
     if (tryNum == 1) {
         alert(tryNum);
@@ -17,4 +17,5 @@ button1.addEventListener("mousedown", function() {
         alert(tryNum);
         linear3.style.display = "block";
     }
-});
+}
+button1.addEventListener('mousedown', display1());
