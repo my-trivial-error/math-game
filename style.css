@@ -1,0 +1,13 @@
+input {
+    width: 200px;
+    padding: 20px;
+}
+p {
+    font-size: 14pt;
+}
+.card {
+    margin: 20px;
+    padding: 30px;
+    box-shadow: 1px 1px 3px 2px;
+    display: none;
+}
