@@ -4,6 +4,7 @@ var linear2 = document.getElementById("linear-card2");
 var linear3 = document.getElementById("linear-card3");
 var tryNum = Math.ceil(Math.random()*3);
 button1.addEventListener("mousedown", function(e) {
+    alert("Working");
     if (tryNum == 1) {
         alert(tryNum);
         linear1.style.display = "block";
