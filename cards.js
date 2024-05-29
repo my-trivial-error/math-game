@@ -3,20 +3,20 @@ var linear1 = document.getElementById("linear-card1");
 var linear2 = document.getElementById("linear-card2");
 var linear3 = document.getElementById("linear-card3");
 var linearCard1Q1 = document.getElementById("linear-card1-q1");
-var tryNum = Math.ceil(Math.random()*3);
+var tryNum = Math.floor(Math.random()*3)+1;
 function display1() {
-    alert("Working");
+    // alert("Working");
     if (tryNum == 1) {
         alert(tryNum);
-        linear1.style.display = "block";
+        linear1.classList.toggle = "appear";
     }
     if (tryNum == 2) {
         alert(tryNum);
-        linear2.style.display = "block";
+        linear2.classList.toggle = "appear";
     }
     if (tryNum == 3) {
         alert(tryNum);
-        linear3.style.display = "block";
+        linear3.classList.toggle = "appear";
     }
 }
 /* document.addEventListner('DOMContentLoaded', function(event) {
