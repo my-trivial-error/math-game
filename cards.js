@@ -3,6 +3,9 @@ var linear1 = document.getElementById("linear-card1");
 var linear2 = document.getElementById("linear-card2");
 var linear3 = document.getElementById("linear-card3");
 var linearCard1Q1 = document.getElementById("linear-card1-q1");
+var linearCard1Q2 = document.getElementById("linear-card1-q2");
+var linearCard1Q3 = document.getElementById("linear-card1-q3");
+var linearCard1Q4 = document.getElementById("linear-card1-q4");
 var tryNum = Math.floor(Math.random()*3)+1;
 function display1() {
     // alert("Working");
@@ -48,8 +51,15 @@ document.addEventListener("keypress", function (event) {
     if (event.key == "Enter") {
         if (linearCard1Q1.value == "4") {
             // alert("die");
-            alert("correct");
+            if (linearCard1Q2.value == "2") {
+                if (linearCard1Q3.value == "-10") {
+                    if (linearCard1Q4.value == "2") {
+                        alert("Correct");
+                    } else {alert("something's wrong");linearCard1Q1.value = "";}
+                } else {alert("something's wrong");linearCard1Q1.value = "";}
+            } else {alert("something's wrong");linearCard1Q1.value = "";}
         } else {
+            alert("something's wrong");
             linearCard1Q1.value = "";
         }
     }
