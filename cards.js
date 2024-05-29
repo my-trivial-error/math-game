@@ -22,7 +22,10 @@ function display1() {
 /* document.addEventListner('DOMContentLoaded', function(event) {
     button1.addEventListener('mousedown', display1());
 }); */
-button1.addEventListener("mousedown", function(event) {
+button1.addEventListener("click", function(event) {
+    if (event.value = "click") {
+        alert("hello");
+    }
     alert("Working");
     if (tryNum == 1) {
         alert(tryNum);
