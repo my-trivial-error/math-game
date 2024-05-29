@@ -55,12 +55,9 @@ document.addEventListener("keypress", function (event) {
                 if (linearCard1Q3.value == "-10") {
                     if (linearCard1Q4.value == "2") {
                         alert("Correct");
-                    } else {alert("something's wrong");linearCard1Q1.value = "";}
-                } else {alert("something's wrong");linearCard1Q1.value = "";}
-            } else {alert("something's wrong");linearCard1Q1.value = "";}
-        } else {
-            alert("something's wrong");
-            linearCard1Q1.value = "";
-        }
+                    } else {alert("something's wrong");}
+                } else {alert("something's wrong");}
+            } else {alert("something's wrong");}
+        } else {alert("something's wrong");}
     }
 });
