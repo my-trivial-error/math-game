@@ -18,4 +18,6 @@ function display1() {
         linear3.style.display = "block";
     }
 }
-button1.addEventListener('mousedown', display1());
+document.addEventListner('DOMContentLoaded', function() {
+    button1.addEventListener('mousedown', display1());
+});
