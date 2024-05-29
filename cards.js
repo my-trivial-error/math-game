@@ -39,7 +39,7 @@ button1.addEventListener("mousedown", function(event) {
 });
 document.addEventListener("keypress", function (event) {
     // event.preventDefault();
-    if (event.key === "Enter") {
+    if (event.key == "Enter") {
         if (linearCard1Q1.value == "4") {
             // alert("die");
             alert("correct");
