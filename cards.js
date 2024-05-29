@@ -7,17 +7,17 @@ var tryNum = Math.floor(Math.random()*3)+1;
 function display1() {
     // alert("Working");
     if (tryNum == 1) {
-        alert(tryNum);
+        // alert(tryNum);
         linear1.classList.toggle("appear");
         linear1.style.display = "block";
     }
     if (tryNum == 2) {
-        alert(tryNum);
+        // alert(tryNum);
         linear2.classList.toggle("appear");
         linear2.style.display = "block";
     }
     if (tryNum == 3) {
-        alert(tryNum);
+        // alert(tryNum);
         linear3.classList.toggle("appear");
         linear3.style.display = "block";
     }
@@ -27,19 +27,19 @@ function display1() {
 }); */
 button1.addEventListener("click", function (event) {
     if (event.value = "click") {
-        alert("hello");
+        // alert("hello");
     }
     alert("Working");
     if (tryNum == 1) {
-        alert(tryNum);
+        // alert(tryNum);
         linear1.style.display = "block";
     }
     if (tryNum == 2) {
-        alert(tryNum);
+        // alert(tryNum);
         linear2.style.display = "block";
     }
     if (tryNum == 3) {
-        alert(tryNum);
+        // alert(tryNum);
         linear3.style.display = "block";
     }
 });
