@@ -45,7 +45,7 @@ button1.addEventListener("click", function (event) {
 });
 document.addEventListener("keypress", function (event) {
     // event.preventDefault();
-    if (event.keyCode == 13) {
+    if (event.key == "Enter") {
         if (linearCard1Q1.value == "4") {
             // alert("die");
             alert("correct");
