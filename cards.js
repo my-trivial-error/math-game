@@ -9,14 +9,17 @@ function display1() {
     if (tryNum == 1) {
         alert(tryNum);
         linear1.classList.toggle("appear");
+        linear1.style.display = "block";
     }
     if (tryNum == 2) {
         alert(tryNum);
         linear2.classList.toggle("appear");
+        linear2.style.display = "block";
     }
     if (tryNum == 3) {
         alert(tryNum);
         linear3.classList.toggle("appear");
+        linear3.style.display = "block";
     }
 }
 /* document.addEventListner('DOMContentLoaded', function(event) {
