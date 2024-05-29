@@ -2,7 +2,7 @@ var button1 = document.getElementById("generate-linear-card");
 var linear1 = document.getElementById("linear-card1");
 var linear2 = document.getElementById("linear-card2");
 var linear3 = document.getElementById("linear-card3");
-var linearCard1 = document.getElementById("linear-card1-q1");
+var linearCard1Q1 = document.getElementById("linear-card1-q1");
 var tryNum = Math.ceil(Math.random()*3);
 function display1() {
     alert("Working");
@@ -40,11 +40,11 @@ button1.addEventListener('mousedown', function(event) {
 document.addEventListener("keypress", function (event) {
     // event.preventDefault();
     if (event.key === "Enter") {
-        if (password.value === passCode) {
+        if (linearCard1Q1.value == "4") {
             // alert("die");
-            screen.style.display = "none";
+            alert("correct");
         } else {
-            password.value = "";
+            linearCard1Q1.value = "";
         }
     }
 });
