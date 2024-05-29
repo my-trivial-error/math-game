@@ -29,7 +29,7 @@ button1.addEventListener("click", function (event) {
     if (event.value = "click") {
         // alert("hello");
     }
-    alert("Working");
+    // alert("Working");
     if (tryNum == 1) {
         // alert(tryNum);
         linear1.style.display = "block";
