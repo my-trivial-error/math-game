@@ -8,15 +8,15 @@ function display1() {
     // alert("Working");
     if (tryNum == 1) {
         alert(tryNum);
-        linear1.classList.toggle = "appear";
+        linear1.classList.toggle("appear");
     }
     if (tryNum == 2) {
         alert(tryNum);
-        linear2.classList.toggle = "appear";
+        linear2.classList.toggle("appear");
     }
     if (tryNum == 3) {
         alert(tryNum);
-        linear3.classList.toggle = "appear";
+        linear3.classList.toggle("appear");
     }
 }
 /* document.addEventListner('DOMContentLoaded', function(event) {
