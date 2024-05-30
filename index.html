@@ -13,7 +13,7 @@
     <h2>Solving Linear Equations</h2>
     <button id="generate-linear-card" onclick="display1();">Practice cards for linear equations</button>
     <p>Your results:</p>
-    <ol>
+    <ol id="topResult">
         <li id="linear-result1">Not started</li>
         <li id="linear-result2">Not started</li>
         <li id="linear-result3">Not started</li>
@@ -32,7 +32,7 @@
             <input id="linear-card1-q4" />
             <br>
             <br>
-            <input type="submit" value="Check answers" id="check1" />
+            <a href="#topResult"><input type="submit" value="Check answers" id="check1" /></a>
         </div>
         <div id="linear-card2" class="card">
             <h3>Solve the following problems for \( x \):</h3>
@@ -46,7 +46,7 @@
             <input id="linear-card1-q4" />
             <br>
             <br>
-            <input type="submit" value="Check answers" id="check2" />
+            <a href="#topResult"><input type="submit" value="Check answers" id="check2" /></a>
         </div>
         <div id="linear-card3" class="card">
             <h3>Solve the following problems for \( x \):</h3>
@@ -60,7 +60,7 @@
             <input id="linear-card1-q4" />
             <br>
             <br>
-            <input type="submit" value="Check answers" id="check3" />
+            <a href="#topResult"><input type="submit" value="Check answers" id="check3" /></a>
         </div>
     </div>
     <script src="cards.js"></script>
