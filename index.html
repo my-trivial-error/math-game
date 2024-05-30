@@ -6,12 +6,19 @@
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
         <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
         <script src="cards.js"></script>
-        <title>Algebra 1/Geometry Game</title>
+        <title>Algebra Game</title>
     </head>
-    <h1>Algebra 1/Geometry Game</h1>
+    <h1>Algebra Game</h1>
     <hr>
     <h2>Solving Linear Equations</h2>
     <button id="generate-linear-card" onclick="display1();">Practice cards for linear equations</button>
+    <p>Your results:</p>
+    <ol>
+        <li id="linear-result1">Not started</li>
+        <li id="linear-result2">Not started</li>
+        <li id="linear-result3">Not started</li>
+        <li id="linear-result4">Not started</li>
+    </ol>
     <div id="linear">
         <div id="linear-card1" class="card">
             <h3>Solve the following problems for \( x \):</h3>
@@ -25,7 +32,7 @@
             <input id="linear-card1-q4" />
             <br>
             <br>
-            <input type="submit" value="Check answers" />
+            <input type="submit" value="Check answers" id="check1" />
         </div>
         <div id="linear-card2" class="card">
             <h3>Solve the following problems for \( x \):</h3>
@@ -39,7 +46,7 @@
             <input id="linear-card1-q4" />
             <br>
             <br>
-            <input type="submit" value="Check answers" />
+            <input type="submit" value="Check answers" id="check2" />
         </div>
         <div id="linear-card3" class="card">
             <h3>Solve the following problems for \( x \):</h3>
@@ -53,7 +60,7 @@
             <input id="linear-card1-q4" />
             <br>
             <br>
-            <input type="submit" value="Check answers" />
+            <input type="submit" value="Check answers" id="check3" />
         </div>
     </div>
     <script src="cards.js"></script>
