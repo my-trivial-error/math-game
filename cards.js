@@ -87,7 +87,7 @@ check2.addEventListener("click", function (event) {
     if (event.value = "click") {
         // comment
     }
-    if (linearCar21Q1.value == "10") {
+    if (linearCard2Q1.value == "10") {
         linearResult1.innerHTML = "Correct";
     } else {
         linearResult1.innerHTML = "Incorrect";
