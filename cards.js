@@ -6,11 +6,18 @@ var linearCard1Q1 = document.getElementById("linear-card1-q1");
 var linearCard1Q2 = document.getElementById("linear-card1-q2");
 var linearCard1Q3 = document.getElementById("linear-card1-q3");
 var linearCard1Q4 = document.getElementById("linear-card1-q4");
+var linearCard2Q1 = document.getElementById("linear-card2-q1");
+var linearCard2Q2 = document.getElementById("linear-card2-q2");
+var linearCard2Q3 = document.getElementById("linear-card2-q3");
+var linearCard2Q4 = document.getElementById("linear-card2-q4");
 var linearResult1 = document.getElementById("linear-result1");
 var linearResult2 = document.getElementById("linear-result2");
 var linearResult3 = document.getElementById("linear-result3");
 var linearResult4 = document.getElementById("linear-result4");
 var check1 = document.getElementById("check1");
+var check2 = document.getElementById("check2");
+var check3 = document.getElementById("check3");
+var check4 = document.getElementById("check4");
 var tryNum = Math.floor(Math.random()*3)+1;
 function display1() {
     // alert("Working");
@@ -71,6 +78,31 @@ check1.addEventListener("click", function (event) {
         linearResult3.innerHTML = "Incorrect";
     }
     if (linearCard1Q4.value == "2") {
+        linearResult4.innerHTML = "Correct";
+    } else {
+        linearResult4.innerHTML = "Incorrect";
+    }
+});
+check2.addEventListener("click", function (event) {
+    if (event.value = "click") {
+        // comment
+    }
+    if (linearCar21Q1.value == "10") {
+        linearResult1.innerHTML = "Correct";
+    } else {
+        linearResult1.innerHTML = "Incorrect";
+    }
+    if (linearCard2Q2.value == "40") {
+        linearResult2.innerHTML = "Correct";
+    } else {
+        linearResult2.innerHTML = "Incorrect";
+    }
+    if (linearCard2Q3.value == "1") {
+        linearResult3.innerHTML = "Correct";
+    } else {
+        linearResult3.innerHTML = "Incorrect";
+    }
+    if (linearCard2Q4.value == "0") {
         linearResult4.innerHTML = "Correct";
     } else {
         linearResult4.innerHTML = "Incorrect";
