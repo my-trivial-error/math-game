@@ -102,7 +102,32 @@ check2.addEventListener("click", function (event) {
     } else {
         linearResult3.innerHTML = "Incorrect";
     }
-    if (linearCard2Q4.value == "0") {
+    if (linearCard2Q4.value == "1") {
+        linearResult4.innerHTML = "Correct";
+    } else {
+        linearResult4.innerHTML = "Incorrect";
+    }
+});
+check3.addEventListener("click", function (event) {
+    if (event.value = "click") {
+        // comment
+    }
+    if (linearCard3Q1.value == "3") {
+        linearResult1.innerHTML = "Correct";
+    } else {
+        linearResult1.innerHTML = "Incorrect";
+    }
+    if (linearCard3Q2.value == "9") {
+        linearResult2.innerHTML = "Correct";
+    } else {
+        linearResult2.innerHTML = "Incorrect";
+    }
+    if (linearCard3Q3.value == "3") {
+        linearResult3.innerHTML = "Correct";
+    } else {
+        linearResult3.innerHTML = "Incorrect";
+    }
+    if (linearCard3Q4.value == "-1") {
         linearResult4.innerHTML = "Correct";
     } else {
         linearResult4.innerHTML = "Incorrect";
