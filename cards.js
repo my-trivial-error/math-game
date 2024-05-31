@@ -90,6 +90,7 @@ check1.addEventListener("click", function (event) {
     } else {
         linearResult4.innerHTML = "Incorrect";
     }
+    tryNum = Math.floor(Math.random()*3)+1;
 });
 check2.addEventListener("click", function (event) {
     if (event.value = "click") {
@@ -115,6 +116,7 @@ check2.addEventListener("click", function (event) {
     } else {
         linearResult4.innerHTML = "Incorrect";
     }
+    tryNum = Math.floor(Math.random()*3)+1;
 });
 check3.addEventListener("click", function (event) {
     if (event.value = "click") {
@@ -140,4 +142,5 @@ check3.addEventListener("click", function (event) {
     } else {
         linearResult4.innerHTML = "Incorrect";
     }
+    tryNum = Math.floor(Math.random()*3)+1;
 });
