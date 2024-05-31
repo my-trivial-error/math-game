@@ -50,16 +50,20 @@ button1.addEventListener("click", function (event) {
     // alert("Working");
     if (tryNum == 1) {
         // alert(tryNum);
-        linear1.style.display = "block";
+        linear1.classList.toggle("appear");
+        // linear1.style.display = "block";
     }
     if (tryNum == 2) {
         // alert(tryNum);
-        linear2.style.display = "block";
+        linear2.classList.toggle("appear");
+        // linear2.style.display = "block";
     }
     if (tryNum == 3) {
         // alert(tryNum);
-        linear3.style.display = "block";
+        linear3.classList.toggle("appear");
+        // linear3.style.display = "block";
     }
+    tryNum = Math.floor(Math.random()*3)+1;
 });
 check1.addEventListener("click", function (event) {
     if (event.value = "click") {
