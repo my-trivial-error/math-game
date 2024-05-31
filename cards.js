@@ -169,12 +169,12 @@ check3.addEventListener("click", function (event) {
     }
     // tryNum = Math.floor(Math.random()*3)+1;
 });
-/* button2.addEventListener("click", function (event) {
+button2.addEventListener("click", function (event) {
     if (event.value = "click") {
         // alert("hello");
     }
     // alert("Working");
-    if (tryNum == 1) {
+    /* if (tryNum == 1) {
         // alert(tryNum);
         systems1.classList.toggle("appear");
         // linear1.style.display = "block";
@@ -188,40 +188,41 @@ check3.addEventListener("click", function (event) {
         // alert(tryNum);
         systems3.classList.toggle("appear");
         // linear3.style.display = "block";
-    }
+    } */
+    systems1.classList.toggle("appear");
     // tryNum = Math.floor(Math.random()*3)+1;
 });
 check4.addEventListener("click", function (event) {
     if (event.value = "click") {
         // comment
     }
-    if (systemsCard1Q1.value == "4") {
+    if (systemsCard1Q1.value == "7") {
         systemsResult1.innerHTML = "Correct";
     } else {
         systemsResult1.innerHTML = "Incorrect";
     }
-    if (systemsCard1Q2.value == "2") {
+    if (systemsCard1Q2.value == "4") {
         systemsResult2.innerHTML = "Correct";
     } else {
         systemsResult2.innerHTML = "Incorrect";
     }
-    if (systemsCard1Q3.value == "-10") {
+    if (systemsCard1Q3.value == "1") {
         systemsResult3.innerHTML = "Correct";
     } else {
-        linearResult3.innerHTML = "Incorrect";
+        systemsResult3.innerHTML = "Incorrect";
     }
-    if (linearCard1Q4.value == "2") {
-        linearResult4.innerHTML = "Correct";
+    if (systemsCard1Q4.value == "4") {
+        systemsResult4.innerHTML = "Correct";
     } else {
-        linearResult4.innerHTML = "Incorrect";
+        systemsResult4.innerHTML = "Incorrect";
     }
     // tryNum = Math.floor(Math.random()*3)+1;
 });
-check5.addEventListener("click", function (event) {
+/* check5.addEventListener("click", function (event) {
     if (event.value = "click") {
         // comment
     }
-    if (linearCard2Q1.value == "10") {
+    if (systemsCard2Q1.value == "10") {
         linearResult1.innerHTML = "Correct";
     } else {
         linearResult1.innerHTML = "Incorrect";
