@@ -21,6 +21,31 @@ var linearResult4 = document.getElementById("linear-result4");
 var check1 = document.getElementById("check1");
 var check2 = document.getElementById("check2");
 var check3 = document.getElementById("check3");
+
+var button2 = document.getElementById("generate-systems-card");
+var systems1 = document.getElementById("systems-card1");
+var systems2 = document.getElementById("systems-card2");
+var systems3 = document.getElementById("systems-card3");
+var systemsCard1Q1 = document.getElementById("systems-card1-q1");
+var systmesCard1Q2 = document.getElementById("systems-card1-q2");
+var systmesCard1Q3 = document.getElementById("systems-card1-q3");
+var systemsCard1Q4 = document.getElementById("systems-card1-q4");
+var systemsCard2Q1 = document.getElementById("systems-card2-q1");
+var systemsCard2Q2 = document.getElementById("systems-card2-q2");
+var systemsCard2Q3 = document.getElementById("systems-card2-q3");
+var systemsCard2Q4 = document.getElementById("systems-card2-q4");
+var systemsCard3Q1 = document.getElementById("systems-card3-q1");
+var systemsCard3Q2 = document.getElementById("systems-card3-q2");
+var systemsCard3Q3 = document.getElementById("systems-card3-q3");
+var systemsCard3Q4 = document.getElementById("systems-card3-q4");
+var systemsResult1 = document.getElementById("systems-result1");
+var systemsResult2 = document.getElementById("systems-result2");
+var systemsResult3 = document.getElementById("systems-result3");
+var systemsResult4 = document.getElementById("systems-result4");
+var check4 = document.getElementById("check4");
+var check5 = document.getElementById("check5");
+var check6 = document.getElementById("check6");
+
 var tryNum = Math.floor(Math.random()*3)+1;
 function display1() {
     // alert("Working");
@@ -90,7 +115,7 @@ check1.addEventListener("click", function (event) {
     } else {
         linearResult4.innerHTML = "Incorrect";
     }
-    tryNum = Math.floor(Math.random()*3)+1;
+    // tryNum = Math.floor(Math.random()*3)+1;
 });
 check2.addEventListener("click", function (event) {
     if (event.value = "click") {
@@ -116,7 +141,7 @@ check2.addEventListener("click", function (event) {
     } else {
         linearResult4.innerHTML = "Incorrect";
     }
-    tryNum = Math.floor(Math.random()*3)+1;
+    // tryNum = Math.floor(Math.random()*3)+1;
 });
 check3.addEventListener("click", function (event) {
     if (event.value = "click") {
@@ -142,5 +167,105 @@ check3.addEventListener("click", function (event) {
     } else {
         linearResult4.innerHTML = "Incorrect";
     }
-    tryNum = Math.floor(Math.random()*3)+1;
+    // tryNum = Math.floor(Math.random()*3)+1;
 });
+/* button2.addEventListener("click", function (event) {
+    if (event.value = "click") {
+        // alert("hello");
+    }
+    // alert("Working");
+    if (tryNum == 1) {
+        // alert(tryNum);
+        systems1.classList.toggle("appear");
+        // linear1.style.display = "block";
+    }
+    if (tryNum == 2) {
+        // alert(tryNum);
+        systems2.classList.toggle("appear");
+        // linear2.style.display = "block";
+    }
+    if (tryNum == 3) {
+        // alert(tryNum);
+        systems3.classList.toggle("appear");
+        // linear3.style.display = "block";
+    }
+    // tryNum = Math.floor(Math.random()*3)+1;
+});
+check4.addEventListener("click", function (event) {
+    if (event.value = "click") {
+        // comment
+    }
+    if (systemsCard1Q1.value == "4") {
+        systemsResult1.innerHTML = "Correct";
+    } else {
+        systemsResult1.innerHTML = "Incorrect";
+    }
+    if (systemsCard1Q2.value == "2") {
+        systemsResult2.innerHTML = "Correct";
+    } else {
+        systemsResult2.innerHTML = "Incorrect";
+    }
+    if (systemsCard1Q3.value == "-10") {
+        systemsResult3.innerHTML = "Correct";
+    } else {
+        linearResult3.innerHTML = "Incorrect";
+    }
+    if (linearCard1Q4.value == "2") {
+        linearResult4.innerHTML = "Correct";
+    } else {
+        linearResult4.innerHTML = "Incorrect";
+    }
+    // tryNum = Math.floor(Math.random()*3)+1;
+});
+check5.addEventListener("click", function (event) {
+    if (event.value = "click") {
+        // comment
+    }
+    if (linearCard2Q1.value == "10") {
+        linearResult1.innerHTML = "Correct";
+    } else {
+        linearResult1.innerHTML = "Incorrect";
+    }
+    if (linearCard2Q2.value == "40") {
+        linearResult2.innerHTML = "Correct";
+    } else {
+        linearResult2.innerHTML = "Incorrect";
+    }
+    if (linearCard2Q3.value == "1") {
+        linearResult3.innerHTML = "Correct";
+    } else {
+        linearResult3.innerHTML = "Incorrect";
+    }
+    if (linearCard2Q4.value == "1") {
+        linearResult4.innerHTML = "Correct";
+    } else {
+        linearResult4.innerHTML = "Incorrect";
+    }
+    // tryNum = Math.floor(Math.random()*3)+1;
+});
+check6.addEventListener("click", function (event) {
+    if (event.value = "click") {
+        // comment
+    }
+    if (linearCard3Q1.value == "3") {
+        linearResult1.innerHTML = "Correct";
+    } else {
+        linearResult1.innerHTML = "Incorrect";
+    }
+    if (linearCard3Q2.value == "9") {
+        linearResult2.innerHTML = "Correct";
+    } else {
+        linearResult2.innerHTML = "Incorrect";
+    }
+    if (linearCard3Q3.value == "3") {
+        linearResult3.innerHTML = "Correct";
+    } else {
+        linearResult3.innerHTML = "Incorrect";
+    }
+    if (linearCard3Q4.value == "1") {
+        linearResult4.innerHTML = "Correct";
+    } else {
+        linearResult4.innerHTML = "Incorrect";
+    }
+    // tryNum = Math.floor(Math.random()*3)+1;
+}); */
