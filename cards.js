@@ -64,7 +64,7 @@ button1.addEventListener("click", function (event) {
         linear3.classList.toggle("appear");
         // linear3.style.display = "block";
     }
-    tryNum = Math.floor(Math.random()*3)+1;
+    // tryNum = Math.floor(Math.random()*3)+1;
 });
 check1.addEventListener("click", function (event) {
     if (event.value = "click") {
