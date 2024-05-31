@@ -10,6 +10,10 @@ var linearCard2Q1 = document.getElementById("linear-card2-q1");
 var linearCard2Q2 = document.getElementById("linear-card2-q2");
 var linearCard2Q3 = document.getElementById("linear-card2-q3");
 var linearCard2Q4 = document.getElementById("linear-card2-q4");
+var linearCard3Q1 = document.getElementById("linear-card3-q1");
+var linearCard3Q2 = document.getElementById("linear-card3-q2");
+var linearCard3Q3 = document.getElementById("linear-card3-q3");
+var linearCard3Q4 = document.getElementById("linear-card3-q4");
 var linearResult1 = document.getElementById("linear-result1");
 var linearResult2 = document.getElementById("linear-result2");
 var linearResult3 = document.getElementById("linear-result3");
@@ -17,7 +21,6 @@ var linearResult4 = document.getElementById("linear-result4");
 var check1 = document.getElementById("check1");
 var check2 = document.getElementById("check2");
 var check3 = document.getElementById("check3");
-var check4 = document.getElementById("check4");
 var tryNum = Math.floor(Math.random()*3)+1;
 function display1() {
     // alert("Working");
@@ -127,7 +130,7 @@ check3.addEventListener("click", function (event) {
     } else {
         linearResult3.innerHTML = "Incorrect";
     }
-    if (linearCard3Q4.value == "-1") {
+    if (linearCard3Q4.value == "1") {
         linearResult4.innerHTML = "Correct";
     } else {
         linearResult4.innerHTML = "Incorrect";
