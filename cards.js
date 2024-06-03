@@ -50,6 +50,10 @@ var button3 = document.getElementById("generate-graphs-card");
 var graphs1 = document.getElementById("graphs-card1");
 var graphs2 = document.getElementById("graphs-card2");
 var graphs3 = document.getElementById("graphs-card3");
+var graphsResult1 = document.getElementById("graphs-result1");
+var graphsResult2 = document.getElementById("graphs-result2");
+var graphsResult3 = document.getElementById("graphs-result3");
+var graphsResult4 = document.getElementById("graphs-result4");
 var graphsCard1Q1 = document.getElementById("graphs-card1-q1");
 var graphsCard1Q2 = document.getElementById("graphs-card1-q2");
 var graphsCard1Q3 = document.getElementById("graphs-card1-q3");
@@ -325,7 +329,7 @@ check7.addEventListener("click", function (event) {
     if (graphsCard1Q4.value == "(0,0)") {
         graphsResult4.innerHTML = "Correct";
     } else {
-        graphsCard1Q2Result4.innerHTML = "Incorrect";
+        graphsResult4.innerHTML = "Incorrect";
     }
     // tryNum = Math.floor(Math.random()*3)+1;
 });
