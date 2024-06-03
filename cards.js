@@ -303,7 +303,7 @@ button3.addEventListener("click", function (event) {
     graphs1.classList.toggle("appear");
     // tryNum = Math.floor(Math.random()*3)+1;
 });
-check4.addEventListener("click", function (event) {
+check7.addEventListener("click", function (event) {
     if (event.value = "click") {
         // comment
     }
