@@ -46,6 +46,16 @@ var check4 = document.getElementById("check4");
 var check5 = document.getElementById("check5");
 var check6 = document.getElementById("check6");
 
+var button3 = document.getElementById("generate-graphs-card");
+var graphs1 = document.getElementById("graphs-card1");
+var graphs2 = document.getElementById("graphs-card2");
+var graphs3 = document.getElementById("graphs-card3");
+var graphsCard1Q1 = document.getElementById("graphs-card1-q1");
+var graphsCard1Q2 = document.getElementById("graphs-card1-q2");
+var graphsCard1Q3 = document.getElementById("graphs-card1-q3");
+var graphsCard1Q4 = document.getElementById("graphs-card1-q4");
+var check7 = document.getElementById("check7");
+
 var tryNum = Math.floor(Math.random()*3)+1;
 function display1() {
     // alert("Working");
@@ -270,3 +280,52 @@ check6.addEventListener("click", function (event) {
     }
     // tryNum = Math.floor(Math.random()*3)+1;
 }); */
+button3.addEventListener("click", function (event) {
+    if (event.value = "click") {
+        // alert("hello");
+    }
+    // alert("Working");
+    /* if (tryNum == 1) {
+        // alert(tryNum);
+        systems1.classList.toggle("appear");
+        // linear1.style.display = "block";
+    }
+    if (tryNum == 2) {
+        // alert(tryNum);
+        systems2.classList.toggle("appear");
+        // linear2.style.display = "block";
+    }
+    if (tryNum == 3) {
+        // alert(tryNum);
+        systems3.classList.toggle("appear");
+        // linear3.style.display = "block";
+    } */
+    graphs1.classList.toggle("appear");
+    // tryNum = Math.floor(Math.random()*3)+1;
+});
+check4.addEventListener("click", function (event) {
+    if (event.value = "click") {
+        // comment
+    }
+    if (graphsCard1Q1.value == "2") {
+        graphsResult1.innerHTML = "Correct";
+    } else {
+        graphsResult1.innerHTML = "Incorrect";
+    }
+    if (graphsCard1Q2.value == "(2,0)") {
+        graphsResult2.innerHTML = "Correct";
+    } else {
+        graphsResult2.innerHTML = "Incorrect";
+    }
+    if (graphsCard1Q3.value == "-3/2") {
+        graphsResult3.innerHTML = "Correct";
+    } else {
+        graphsResult3.innerHTML = "Incorrect";
+    }
+    if (graphsCard1Q4.value == "(0,0)") {
+        graphsResult4.innerHTML = "Correct";
+    } else {
+        graphsCard1Q2Result4.innerHTML = "Incorrect";
+    }
+    // tryNum = Math.floor(Math.random()*3)+1;
+});
