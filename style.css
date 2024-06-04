@@ -8,29 +8,38 @@ button {
     background: rgba(0, 40, 255, 1);
     color: white;
     font-family: 'Roboto';
+    border: none;
 }
 input {
     width: 200px;
-    padding: 20px;
+    padding: 5px;
 }
 hr {
-    padding: 10px;
+    margin: 10px;
     margin-left: 30px;
+    margin-top: 45px;
 }
 p {
     font-size: 14pt;
 }
 .card {
     margin: 20px;
-    padding: 30px;
+    padding: 10px;
     box-shadow: 1px 1px 3px 2px;
+    width: 500px;
     display: none;
 }
 .appear {
     display: block;
 }
+.info {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
 #head {
+    margin-left: 50px;
     position: fixed;
     padding: 10px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.5));
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(200, 200, 200, 0.7));
 }
