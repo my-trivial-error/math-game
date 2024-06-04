@@ -16,7 +16,7 @@ button:hover {
 }
 input {
     width: 200px;
-    padding: 5px;
+    padding: 10px;
 }
 hr {
     margin: 10px;
@@ -39,6 +39,18 @@ p {
 .info {
     padding: 5px;
     text-decoration: none;
+    color: black;
+}
+.submit {
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(0, 40, 255, 1);
+    color: white;
+    font-family: 'Roboto';
+    border: none;
+}
+.submit:hover {
+    background: linear-gradient(90deg, rgba(0, 40, 255, 0.5), rgba(0, 40, 255, 0.2));
     color: black;
 }
 #head {
