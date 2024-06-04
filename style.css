@@ -1,6 +1,21 @@
+body {
+    font-family: 'Roboto';
+    padding: 10px;
+}
+button {
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(0, 40, 255, 1);
+    color: white;
+    font-family: 'Roboto';
+}
 input {
     width: 200px;
     padding: 20px;
+}
+hr {
+    padding: 10px;
+    margin-left: 30px;
 }
 p {
     font-size: 14pt;
@@ -13,4 +28,9 @@ p {
 }
 .appear {
     display: block;
+}
+#head {
+    position: fixed;
+    padding: 10px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.5));
 }
