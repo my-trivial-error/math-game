@@ -60,6 +60,20 @@ var graphsCard1Q3 = document.getElementById("graphs-card1-q3");
 var graphsCard1Q4 = document.getElementById("graphs-card1-q4");
 var check7 = document.getElementById("check7");
 
+var button4 = document.getElementById("generate-ear-card");
+var ear1 = document.getElementById("ear-card1");
+var ear2 = document.getElementById("ear-card2");
+var ear3 = document.getElementById("ear-card3");
+var earResult1 = document.getElementById("ear-result1");
+var earResult2 = document.getElementById("ear-result2");
+var earResult3 = document.getElementById("ear-result3");
+var earsResult4 = document.getElementById("ear-result4");
+var earCard1Q1 = document.getElementById("ear-card1-q1");
+var earsCard1Q2 = document.getElementById("ear-card1-q2");
+var earCard1Q3 = document.getElementById("ear-card1-q3");
+var earCard1Q4 = document.getElementById("ear-card1-q4");
+var check8 = document.getElementById("check8");
+
 var tryNum = Math.floor(Math.random()*3)+1;
 function display1() {
     // alert("Working");
@@ -330,6 +344,55 @@ check7.addEventListener("click", function (event) {
         graphsResult4.innerHTML = "Correct";
     } else {
         graphsResult4.innerHTML = "Incorrect";
+    }
+    // tryNum = Math.floor(Math.random()*3)+1;
+});
+button4.addEventListener("click", function (event) {
+    if (event.value = "click") {
+        // alert("hello");
+    }
+    // alert("Working");
+    /* if (tryNum == 1) {
+        // alert(tryNum);
+        systems1.classList.toggle("appear");
+        // linear1.style.display = "block";
+    }
+    if (tryNum == 2) {
+        // alert(tryNum);
+        systems2.classList.toggle("appear");
+        // linear2.style.display = "block";
+    }
+    if (tryNum == 3) {
+        // alert(tryNum);
+        systems3.classList.toggle("appear");
+        // linear3.style.display = "block";
+    } */
+    ear1.classList.toggle("appear");
+    // tryNum = Math.floor(Math.random()*3)+1;
+});
+check8.addEventListener("click", function (event) {
+    if (event.value = "click") {
+        // comment
+    }
+    if (earsCard1Q1.value == "16") {
+        earsResult1.innerHTML = "Correct";
+    } else {
+        earsResult1.innerHTML = "Incorrect";
+    }
+    if (earsCard1Q2.value == "125") {
+        earsResult2.innerHTML = "Correct";
+    } else {
+        earsResult2.innerHTML = "Incorrect";
+    }
+    if (earsCard1Q3.value == "1024") {
+        earsResult3.innerHTML = "Correct";
+    } else {
+        earsResult3.innerHTML = "Incorrect";
+    }
+    if (earsCard1Q4.value == "1") {
+        earsResult4.innerHTML = "Correct";
+    } else {
+        earsResult4.innerHTML = "Incorrect";
     }
     // tryNum = Math.floor(Math.random()*3)+1;
 });
