@@ -58,10 +58,12 @@ p {
     color: black;
 }
 #head {
-    margin-top: 5px;
-    margin-left: 50px;
+    /* margin-top: 5px;
+    margin-left: 50px; */
     position: fixed;
     padding: 10px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(200, 200, 200, 0.7));
-    width: 700px;
+    width: 650px;
+    top: 0;
+    left: 0;
 }
