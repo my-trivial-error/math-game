@@ -10,6 +10,10 @@ button {
     font-family: 'Roboto';
     border: none;
 }
+button:hover {
+    background: linear-gradient(90deg, rgba(0, 40, 255, 0.5), rgba(0, 40, 255, 0.2));
+    color: black;
+}
 input {
     width: 200px;
     padding: 5px;
@@ -17,7 +21,7 @@ input {
 hr {
     margin: 10px;
     margin-left: 30px;
-    margin-top: 45px;
+    margin-top: 60px;
 }
 p {
     font-size: 14pt;
@@ -38,6 +42,7 @@ p {
     color: black;
 }
 #head {
+    margin-top: 5px;
     margin-left: 50px;
     position: fixed;
     padding: 10px;
