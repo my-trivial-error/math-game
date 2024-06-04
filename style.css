@@ -11,7 +11,8 @@ button {
     border: none;
 }
 button:hover {
-    background: linear-gradient(90deg, rgba(0, 40, 255, 0.5), rgba(0, 40, 255, 0.2));
+    background: linear-gradient(90deg, rgba(0, 40, 255, 0.7), rgba(0, 40, 255, 0.2));
+    cursor: pointer;
     color: black;
 }
 input {
@@ -21,7 +22,7 @@ input {
 hr {
     margin: 10px;
     margin-left: 30px;
-    margin-top: 60px;
+    margin-top: 130px;
 }
 p {
     font-size: 14pt;
@@ -40,6 +41,8 @@ p {
     padding: 5px;
     text-decoration: none;
     color: black;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .submit {
     padding: 10px;
@@ -50,7 +53,8 @@ p {
     border: none;
 }
 .submit:hover {
-    background: linear-gradient(90deg, rgba(0, 40, 255, 0.5), rgba(0, 40, 255, 0.2));
+    background: linear-gradient(90deg, rgba(0, 40, 255, 0.7), rgba(0, 40, 255, 0.2));
+    cursor: pointer;
     color: black;
 }
 #head {
@@ -59,4 +63,5 @@ p {
     position: fixed;
     padding: 10px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(200, 200, 200, 0.7));
+    width: 700px;
 }
