@@ -67,9 +67,9 @@ var ear3 = document.getElementById("ear-card3");
 var earResult1 = document.getElementById("ear-result1");
 var earResult2 = document.getElementById("ear-result2");
 var earResult3 = document.getElementById("ear-result3");
-var earsResult4 = document.getElementById("ear-result4");
+var earResult4 = document.getElementById("ear-result4");
 var earCard1Q1 = document.getElementById("ear-card1-q1");
-var earsCard1Q2 = document.getElementById("ear-card1-q2");
+var earCard1Q2 = document.getElementById("ear-card1-q2");
 var earCard1Q3 = document.getElementById("ear-card1-q3");
 var earCard1Q4 = document.getElementById("ear-card1-q4");
 var check8 = document.getElementById("check8");
@@ -374,25 +374,25 @@ check8.addEventListener("click", function (event) {
     if (event.value = "click") {
         // comment
     }
-    if (earsCard1Q1.value == "16") {
-        earsResult1.innerHTML = "Correct";
+    if (earCard1Q1.value == "16") {
+        earResult1.innerHTML = "Correct";
     } else {
-        earsResult1.innerHTML = "Incorrect";
+        earResult1.innerHTML = "Incorrect";
     }
-    if (earsCard1Q2.value == "125") {
-        earsResult2.innerHTML = "Correct";
+    if (earCard1Q2.value == "125") {
+        earResult2.innerHTML = "Correct";
     } else {
-        earsResult2.innerHTML = "Incorrect";
+        earResult2.innerHTML = "Incorrect";
     }
-    if (earsCard1Q3.value == "1024") {
-        earsResult3.innerHTML = "Correct";
+    if (earCard1Q3.value == "1024") {
+        earResult3.innerHTML = "Correct";
     } else {
-        earsResult3.innerHTML = "Incorrect";
+        earResult3.innerHTML = "Incorrect";
     }
-    if (earsCard1Q4.value == "1") {
-        earsResult4.innerHTML = "Correct";
+    if (earCard1Q4.value == "1") {
+        earResult4.innerHTML = "Correct";
     } else {
-        earsResult4.innerHTML = "Incorrect";
+        earResult4.innerHTML = "Incorrect";
     }
     // tryNum = Math.floor(Math.random()*3)+1;
 });
