@@ -22,7 +22,8 @@ input {
 hr {
     margin: 10px;
     margin-left: 30px;
-    margin-top: 130px;
+    margin-top: 125px;
+    width: 600px;
 }
 p {
     font-size: 14pt;
