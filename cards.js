@@ -433,26 +433,26 @@ button5.addEventListener("click", function (event) {
     quad1.classList.toggle("appear");
     // tryNum = Math.floor(Math.random()*3)+1;
 });
-check8.addEventListener("click", function (event) {
+check9.addEventListener("click", function (event) {
     if (event.value = "click") {
         // comment
     }
-    if (earCard1Q1.value == "16") {
+    if (quadCard1Q1.value == "4") {
         quadResult1.innerHTML = "Correct";
     } else {
         quadResult1.innerHTML = "Incorrect";
     }
-    if (earCard1Q2.value == "125") {
+    if (quadCard1Q2.value == "-2") {
         quadResult2.innerHTML = "Correct";
     } else {
         quadResult2.innerHTML = "Incorrect";
     }
-    if (earCard1Q3.value == "1024") {
+    if (quadCard1Q3.value == "0") {
         quadResult3.innerHTML = "Correct";
     } else {
         quadResult3.innerHTML = "Incorrect";
     }
-    if (earCard1Q4.value == "1") {
+    if (quadCard1Q4.value == "3") {
         quadResult4.innerHTML = "Correct";
     } else {
         quadResult4.innerHTML = "Incorrect";
