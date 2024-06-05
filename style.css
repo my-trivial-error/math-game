@@ -21,7 +21,7 @@ input {
     width: 200px;
     padding: 10px;
 }
-hr {
+.hr {
     margin: 10px;
     margin-left: 30px;
     margin-top: 125px;
