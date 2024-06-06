@@ -344,7 +344,7 @@ check7.addEventListener("click", function (event) {
     } else {
         graphsResult1.innerHTML = "Incorrect";
     }
-    if (graphsCard1Q2.value == "(2,0)") {
+    if (graphsCard1Q2.value == "(-4,0)") {
         graphsResult2.innerHTML = "Correct";
     } else {
         graphsResult2.innerHTML = "Incorrect";
